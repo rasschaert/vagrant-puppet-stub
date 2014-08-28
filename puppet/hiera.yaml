@@ -1,0 +1,6 @@
+---
+:backends:
+  - yaml
+:hierarchy:
+    - environments/%{::environment}
+    - common
