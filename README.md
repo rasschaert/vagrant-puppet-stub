@@ -6,7 +6,7 @@ Vagrant currently does not fully support the changes introduced in recent versio
 
 It also adds an easy way to specify the desired Puppet environments to the Vagrant Puppet provisioner.
 
-In order to use directories as main manifest (using a single file is now deprecated), a [small patch](https://github.com/mitchellh/vagrant/pull/4169/files) to Vagrant's `plugins/provisioners/puppet/config/puppet.rb` file is required. This patch has been accepted upstream and will probably be part of the release following 1.6.2.
+In order to use directories as main manifest (using a single file is now deprecated), a [small patch](https://github.com/mitchellh/vagrant/pull/4169/files) to Vagrant's `plugins/provisioners/puppet/config/puppet.rb` file is required. This patch has been accepted upstream and will probably be part of the release following 1.6.3.
 
 ##Puppet environments
 The Vagrant Puppet provisioner does at this time not provide any mechanism to specify the desired Puppet environment and uses `production` every time.
