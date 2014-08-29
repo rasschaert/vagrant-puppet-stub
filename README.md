@@ -77,6 +77,6 @@ vagrant-puppet git:master ❯❯❯ tree                                        
 11 directories, 9 files
 ```
 
-The directory layout is structured so that you may add a complete Puppet and Hiera git repository as a git submodules. The `puppet` and `hiera` directories provided are just an example of how both repos could be structured.
+The directory layout is structured so that you may add complete Puppet and Hiera git repositories as a git submodules. The `puppet` and `hiera` directories provided are just an example of how both repos could be structured.
 
 As a result of this philosophy, the Hiera configuration file, hiera.yaml, does not include a hardcoded datadir location. Pointing the datadir to `/vagrant/hiera` would make the hiera.yaml file useless outside Vagrant. Instead, an explicit folder sync is set up between `/vagrant/hiera` and the default datadir location, `/var/lib/hiera`.
