@@ -1,2 +1,3 @@
-classes: []
-mock::message: common message
+classes:
+  - bootstrap
+bootstrap::message: common message
