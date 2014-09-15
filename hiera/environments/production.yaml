@@ -1,1 +1,1 @@
-mock::message: this is production, be careful!
+production::message: this is production, be careful!
